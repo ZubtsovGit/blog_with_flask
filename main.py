@@ -34,7 +34,6 @@ def contact():
 def get_post(title):
     requested_post = None
     for blog_post in all_posts:
-        print(blog_post, type(blog_post))
 
         if blog_post['title'] == title:
             requested_post = blog_post
